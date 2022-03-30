@@ -1,5 +1,12 @@
 <h1>Angular Test</h1>
 
+<!--creo un div con classe 'content' (come vuole il test) + aggiungo uno span con la frase 'Angular-test... ' (come vuole il test)-->
+<!--querySelector('.content span') + toContain('Angular-Test app is running!');-->
+
+<div class="content">
+  <span>Angular-Test app is running!</span> 
+</div>
+
 <p *ngIf="user2">{{user2.name}}</p>
 
 <router-outlet></router-outlet>
